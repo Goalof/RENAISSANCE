@@ -41,7 +41,7 @@ export default (() => {
 						text-transform="uppercase"
 						text-shadow="1px 1px 2px #000"
 					>
-						Renaissance Company
+						Renaissance Company ltd
 					</Text>
 					<Image
 						src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:59:39.233Z"
@@ -55,7 +55,58 @@ export default (() => {
 				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" flex-direction="column" align-items="flex-end" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/logo.png?v=2021-04-23T14:45:45.877Z" max-height="170px" lg-max-height="130px" background="rgba(255, 255, 255, 0.45)" />
+					<Image
+						src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/logo.png?v=2021-04-23T14:45:45.877Z"
+						max-height="170px"
+						lg-max-height="130px"
+						background="rgba(255, 255, 255, 0.79)"
+						border-radius="0px 0px 0px 30px"
+					/>
+					{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack
+				margin="0px 0px 0px 0px"
+				gap="0px"
+				align-items="center"
+				justify-content="center"
+				position="relative"
+				top="-160px"
+			>
+				{"    "}
+				<StackItem width="80%" display="flex">
+					<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+					{"        "}
+					<Text
+						font="normal 600 17px/1.5 --fontFamily-googleRaleway"
+						display="inline-block"
+						text-align="left"
+						background="rgba(255, 255, 255, 0.79)"
+						padding="20px 20px 20px 20px"
+						margin="0PX 0px 0px 0px"
+						border-radius="8px"
+					>
+						Sehr geehrte Damen und Herren!
+						<br />
+						Herzlich Willkommen an meine Ländingpage!
+						<br />
+						Unser Unternehmen Renaissance Company LTD gewinnt das Gold
+						<br />
+						{" "}in Ghana Westafrika!{"\n"}
+						<br />
+						Für Erweiterung Gewinnungsfläche brauchen wir zusätzlich{" "}
+						<br />
+						Schwerexcavatoren und unterschiedliche Hilfseinrichtungen.{"\n"}
+						<br />
+						Wenn Sie eine Interesse haben dann melden Sie sich in meinem{" "}
+						<br />
+						Telegram oder WhatsApp!{"\n"}
+						<br />
+						Mit besten Grüßen{"\n"}
+						<br />
+						Eugen Kisler
+					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -104,114 +155,153 @@ export default (() => {
 					<Override
 						slot="StackItemContent"
 						align-items="center"
-						justify-content="flex-end"
+						justify-content="flex-start"
 						md-flex-direction="column"
 						md-align-items="flex-end"
 					/>
 					{"        "}
-					<Box
-						padding="5px 0px 5px 0px"
-						border-width="4px"
-						border-style="solid"
-						border-radius="100%"
-						border-color="transparent"
-						bottom="auto"
-						left="auto"
-						right="176px"
-						top="0px"
-						margin="0px 0px 0px 0px"
-					>
-						<Link
-							href="https://t.me/EugenKislerGermany"
-							color="#ffffff"
-							font="normal 500 17px/1.5 --fontFamily-googleRaleway"
-							text-decoration-line="initial"
-							background="#23A0DB"
-							padding="40px 40px 40px 40px"
+					<Box display="flex">
+						<Box
+							border-width="4px"
+							border-style="solid"
 							border-radius="100%"
-							height="75px"
-							width="75px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							transition="background-color 0.3s ease 0s"
-							box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
-							hover-opacity=".8"
-							text-shadow="1px 1px 2px #000"
-							lg-width="55px"
-							lg-height="55px"
-							lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
-							target="_blank"
+							border-color="transparent"
+							margin="0px 0px 0px 0px"
+							padding="5px 0px 5px 0px"
 						>
-							TELEGRAM
-						</Link>
+							<Link
+								href="https://wa.me/77022014472"
+								color="#ffffff"
+								font="normal 500 17px/1.5 --fontFamily-googleRaleway"
+								text-decoration-line="initial"
+								background="#10AF0A"
+								padding="40px 40px 40px 40px"
+								border-radius="100%"
+								height="75px"
+								width="75px"
+								display="flex"
+								align-items="center"
+								justify-content="center"
+								hover-background="#19b007"
+								transition="background-color 0.3s ease 0s"
+								box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
+								hover-opacity=".8"
+								text-shadow="1px 1px 2px #000"
+								lg-width="55px"
+								lg-height="55px"
+								lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
+								target="_blank"
+							>
+								WHATSAPP
+							</Link>
+						</Box>
+						<Box
+							padding="5px 0px 5px 0px"
+							border-width="4px"
+							border-style="solid"
+							border-radius="100%"
+							border-color="transparent"
+							bottom="auto"
+							left="auto"
+							right="176px"
+							top="0px"
+							margin="0px 0px 0px 0px"
+						>
+							<Link
+								href="https://t.me/EugenKislerGermany"
+								color="#ffffff"
+								font="normal 500 17px/1.5 --fontFamily-googleRaleway"
+								text-decoration-line="initial"
+								background="#23A0DB"
+								padding="40px 40px 40px 40px"
+								border-radius="100%"
+								height="75px"
+								width="75px"
+								display="flex"
+								align-items="center"
+								justify-content="center"
+								transition="background-color 0.3s ease 0s"
+								box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
+								hover-opacity=".8"
+								text-shadow="1px 1px 2px #000"
+								lg-width="55px"
+								lg-height="55px"
+								lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
+								target="_blank"
+							>
+								TELEGRAM
+							</Link>
+						</Box>
 					</Box>
-					<Box
-						border-width="4px"
-						border-style="solid"
-						border-radius="100%"
-						border-color="transparent"
-						margin="0px 0px 0px 0px"
-						padding="0px 0px 0px 0px"
-					>
-						<Link
-							href="https://wa.me/77022014472"
-							color="#ffffff"
-							font="normal 500 17px/1.5 --fontFamily-googleRaleway"
-							text-decoration-line="initial"
-							background="#10AF0A"
-							padding="40px 40px 40px 40px"
+					<Box display="flex">
+						<Box
+							border-width="4px"
+							border-style="solid"
 							border-radius="100%"
-							height="75px"
-							width="75px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							hover-background="#19b007"
-							transition="background-color 0.3s ease 0s"
-							box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
-							hover-opacity=".8"
-							text-shadow="1px 1px 2px #000"
-							lg-width="55px"
-							lg-height="55px"
-							lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
-							target="_blank"
+							border-color="transparent"
+							margin="0px 0px 0px 0px"
+							padding="5px 0px 5px 0px"
 						>
-							WHATSAPP
-						</Link>
-					</Box>
-					<Box
-						border-width="4px"
-						border-style="solid"
-						border-radius="100%"
-						border-color="transparent"
-						margin="0px 0px 0px 0px"
-					>
-						<Link
-							href="https://cgold-official.com/register?referral_id=R179572"
-							color="#ffffff"
-							font="normal 500 17px/1.5 --fontFamily-googleRaleway"
-							text-decoration-line="initial"
-							background="#ff2424"
-							padding="40px 40px 40px 40px"
+							<Link
+								href="https://youtu.be/0QRNQIM7kF8"
+								color="#ffffff"
+								font="normal 500 17px/1.5 --fontFamily-googleRaleway"
+								text-decoration-line="initial"
+								background="#ff2424"
+								padding="40px 40px 40px 40px"
+								border-radius="100%"
+								height="75px"
+								width="75px"
+								display="flex"
+								align-items="center"
+								justify-content="center"
+								hover-background="#ff2424"
+								transition="background-color 0.3s ease 0s"
+								box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
+								hover-opacity=".8"
+								text-shadow="1px 1px 2px #000"
+								lg-width="55px"
+								lg-height="55px"
+								lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
+								target="_blank"
+							>
+								YOUTUBE
+							</Link>
+						</Box>
+						<Box
+							border-width="4px"
+							border-style="solid"
 							border-radius="100%"
-							height="75px"
-							width="75px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							hover-background="#ff2424"
-							transition="background-color 0.3s ease 0s"
-							box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
-							hover-opacity=".8"
-							text-shadow="1px 1px 2px #000"
-							lg-width="55px"
-							lg-height="55px"
-							lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
-							target="_blank"
+							border-color="transparent"
+							margin="0px 0px 0px 0px"
+							padding="5px 0px 5px 0px"
 						>
-							REGISTRATION
-						</Link>
+							<Link
+								href="https://cgold-official.com/register?referral_id=R179572"
+								color="#ffffff"
+								font="normal 500 17px/1.5 --fontFamily-googleRaleway"
+								text-decoration-line="initial"
+								background="#7524ff"
+								padding="40px 40px 40px 40px"
+								border-radius="100%"
+								height="75px"
+								width="75px"
+								display="flex"
+								align-items="center"
+								justify-content="center"
+								hover-background="#ff2424"
+								transition="background-color 0.3s ease 0s"
+								box-shadow="0 10px 10px 0 rgb(0 0 2 / 15%)"
+								hover-opacity=".8"
+								text-shadow="1px 1px 2px #000"
+								lg-width="55px"
+								lg-height="55px"
+								lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
+								target="_blank"
+							>
+								REGISTRATION
+							</Link>
+						</Box>
 					</Box>
 					{"    "}
 				</StackItem>
