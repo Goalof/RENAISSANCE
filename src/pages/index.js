@@ -3,16 +3,22 @@ import theme from "theme";
 import { Theme, Link, Text, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Renaissance Company
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
+			<meta name={"msapplication-TileColor"} content={"#ffb500"} />
 		</Helmet>
 		<Section height="100vh" padding="0px 0 0px 0" background="linear-gradient(180deg,transparent 0%,rgba(0,0,0,0) 11%,rgba(0,0,0,0) 21%,rgba(0,0,0,0) 57.1%,--color-secondary 100%) 0 0 no-repeat" md-height="auto">
 			<Override
@@ -221,5 +227,14 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<meta
+				charset={""}
+				name={"viewport"}
+				content={"width=1024"}
+				place={"endOfHead"}
+				rawKey={"6082da7e40bfb8fd76130939"}
+			/>
+		</RawHtml>
 	</Theme>;
 });

@@ -152,7 +152,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Raleway": {
 			"family": "Raleway",
@@ -181,5 +180,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 5
 }
