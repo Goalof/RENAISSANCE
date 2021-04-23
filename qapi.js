@@ -19,7 +19,9 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"seo": {
-				"title": "Renaissance Company"
+				"title": "Renaissance Company",
+				"description": "Sehr geehrte Damen und Herren!\nHerzlich Willkommen an meine Ländingpage!\nUnser Unternehmen Renaissance Company LTD gewinnt das Gold\n in Ghana Westafrika!\nFür Erweiterung Gewinnungsfläche brauchen wir zusätzlich\nSchwerexcavatoren und unterschiedliche Hilfseinrichtungen.\nWenn Sie eine Interesse haben dann melden Sie sich in meinem\nTelegram oder WhatsApp!",
+				"og:description": "Sehr geehrte Damen und Herren!\nHerzlich Willkommen an meine Ländingpage!\nUnser Unternehmen Renaissance Company LTD gewinnt das Gold\n in Ghana Westafrika!\nFür Erweiterung Gewinnungsfläche brauchen wir zusätzlich\nSchwerexcavatoren und unterschiedliche Hilfseinrichtungen.\nWenn Sie eine Interesse haben dann melden Sie sich in meinem\nTelegram oder WhatsApp!"
 			}
 		}
 	},
