@@ -25,25 +25,37 @@ export default (() => {
 				slot="SectionContent"
 				max-width="none"
 				width="95%"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/fon.png?v=2021-04-23T14:22:03.454Z) 100% 0% /cover no-repeat scroll padding-box"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/fom.png?v=2021-04-23T14:43:29.495Z) 100% 0% /cover no-repeat scroll padding-box"
 				justify-content="space-between"
 				margin="2.5% 2.5% 2.5% 2.5%"
 			/>
-			<Stack margin="0px 0px 0px 0px">
+			<Stack margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
-				<StackItem width="100%" display="flex">
+				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" />
 					{"        "}
 					<Text
 						font="normal 600 36px/1.5 --fontFamily-googleRaleway"
-						margin="0px 0px 0px 0px"
+						margin="16px 0px 0px 16px"
 						display="inline-block"
 						text-transform="uppercase"
 						text-shadow="1px 1px 2px #000"
 					>
 						Renaissance Company
 					</Text>
-					<Image src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:59:39.233Z" max-height="170px" border-radius="100%" lg-max-height="130px" />
+					<Image
+						src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:59:39.233Z"
+						max-height="170px"
+						border-radius="100%"
+						lg-max-height="130px"
+						margin="0px 0px 0px 16px"
+					/>
+					{"    "}
+				</StackItem>
+				<StackItem width="50%" display="flex">
+					<Override slot="StackItemContent" flex-direction="column" align-items="flex-end" />
+					{"        "}
+					<Image src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/logo.png?v=2021-04-23T14:45:45.877Z" max-height="170px" lg-max-height="130px" background="rgba(255, 255, 255, 0.45)" />
 					{"    "}
 				</StackItem>
 				{"    "}
@@ -81,6 +93,7 @@ export default (() => {
 							lg-height="55px"
 							lg-font="normal 500 14px/1.5 --fontFamily-googleRaleway"
 							target="_blank"
+							margin="0px 0px 0px 8px"
 						>
 							NACHRICHTEN!
 						</Link>
@@ -113,7 +126,7 @@ export default (() => {
 							color="#ffffff"
 							font="normal 500 17px/1.5 --fontFamily-googleRaleway"
 							text-decoration-line="initial"
-							background="#292828"
+							background="#23A0DB"
 							padding="40px 40px 40px 40px"
 							border-radius="100%"
 							height="75px"
