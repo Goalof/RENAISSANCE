@@ -14,13 +14,14 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section height="100vh" padding="2.5% 0 2.5% 0" background="linear-gradient(180deg,transparent 0%,rgba(0,0,0,0) 11%,rgba(0,0,0,0) 21%,rgba(0,0,0,0) 57.1%,--color-secondary 100%) 0 0 no-repeat">
+		<Section height="100vh" padding="0px 0 0px 0" background="linear-gradient(180deg,transparent 0%,rgba(0,0,0,0) 11%,rgba(0,0,0,0) 21%,rgba(0,0,0,0) 57.1%,--color-secondary 100%) 0 0 no-repeat">
 			<Override
 				slot="SectionContent"
 				max-width="none"
 				width="95%"
-				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:10:16.217Z) 100% 0% /cover no-repeat scroll padding-box"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/fon.png?v=2021-04-23T14:22:03.454Z) 100% 0% /cover no-repeat scroll padding-box"
 				justify-content="space-between"
+				margin="2.5% 2.5% 2.5% 2.5%"
 			/>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -36,7 +37,7 @@ export default (() => {
 					>
 						Renaissance Company
 					</Text>
-					<Image src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:59:39.233Z" max-height="199px" border-radius="100%" lg-max-height="130px" />
+					<Image src="https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/4.png?v=2021-04-23T13:59:39.233Z" max-height="170px" border-radius="100%" lg-max-height="130px" />
 					{"    "}
 				</StackItem>
 				{"    "}
