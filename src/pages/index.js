@@ -14,7 +14,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section height="100vh" padding="0px 0 0px 0" background="linear-gradient(180deg,transparent 0%,rgba(0,0,0,0) 11%,rgba(0,0,0,0) 21%,rgba(0,0,0,0) 57.1%,--color-secondary 100%) 0 0 no-repeat">
+		<Section height="100vh" padding="0px 0 0px 0" background="linear-gradient(180deg,transparent 0%,rgba(0,0,0,0) 11%,rgba(0,0,0,0) 21%,rgba(0,0,0,0) 57.1%,--color-secondary 100%) 0 0 no-repeat" md-height="auto">
 			<Override
 				slot="SectionContent"
 				max-width="none"
@@ -82,7 +82,13 @@ export default (() => {
 					{"        "}{"    "}
 				</StackItem>
 				<StackItem width="60%" display="flex">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="flex-end"
+						md-flex-direction="column"
+						md-align-items="flex-end"
+					/>
 					{"        "}
 					<Box
 						padding="5px 0px 5px 0px"
