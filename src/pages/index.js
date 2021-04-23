@@ -11,7 +11,10 @@ export default (() => {
 			<title>
 				Renaissance Company
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Sehr geehrte Damen und Herren!\nHerzlich Willkommen an meine Ländingpage!\nUnser Unternehmen Renaissance Company LTD gewinnt das Gold\n in Ghana Westafrika!\nFür Erweiterung Gewinnungsfläche brauchen wir zusätzlich\nSchwerexcavatoren und unterschiedliche Hilfseinrichtungen.\nWenn Sie eine Interesse haben dann melden Sie sich in meinem\nTelegram oder WhatsApp!"} />
+			<meta property={"og:title"} content={"Renaissance Company"} />
+			<meta property={"og:description"} content={"Sehr geehrte Damen und Herren!\nHerzlich Willkommen an meine Ländingpage!\nUnser Unternehmen Renaissance Company LTD gewinnt das Gold\n in Ghana Westafrika!\nFür Erweiterung Gewinnungsfläche brauchen wir zusätzlich\nSchwerexcavatoren und unterschiedliche Hilfseinrichtungen.\nWenn Sie eine Interesse haben dann melden Sie sich in meinem\nTelegram oder WhatsApp!"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/fom.png?v=2021-04-23T14:43:29.495Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/6082c6d9123639001f37cce2/images/5.png?v=2021-04-23T14:31:58.585Z"} />
