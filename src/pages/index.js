@@ -87,7 +87,7 @@ export default (() => {
 						text-align="left"
 						background="rgba(255, 255, 255, 0.79)"
 						padding="20px 20px 20px 20px"
-						margin="0PX 0px 0px 0px"
+						margin="50PX 0px 0px 0px"
 						border-radius="8px"
 					>
 						Sehr geehrte Damen und Herren!
